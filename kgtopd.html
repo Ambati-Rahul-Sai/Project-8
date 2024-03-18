@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kilograms to Pounds Weight Converter</title>
+  <link rel="stylesheet" href="kgtopd.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <h1>Weight Converter (kg to pounds)</h1>
+    <p>Enter weight in kgs : </p>
+    <p>
+      <label>Kilograms</label>
+      <input id="inputKilograms" type="number" placeholder="Kilograms" 
+      oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+    </p>
+    <p>Your weight in pounds is : <span id="outputPounds"></span></p>
+  </div>
+  <script src="kgtopd.js"></script>
+</body>
+</html>
